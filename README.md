@@ -1,2 +1,2 @@
 # estilo-parallax
-Primeiro projeto do meu portfólio, uma página home com efeito Parallax. 
+https://kojahkk.github.io/estilo-parallax/
