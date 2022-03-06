@@ -7,6 +7,10 @@
   font-family: "poppins", sans-serif;
 }
 /*MENU HORIZONTAL*/
+html,
+body {
+  overflow-x: hidden;
+}
 header {
   position: absolute;
   top: 0;
@@ -68,6 +72,7 @@ header ul li a.active {
   }
   .navbar-nav {
     margin: 0 auto;
+    width: 100%;
   }
   header ul li a {
     font-weight: 700;
