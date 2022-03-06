@@ -12,10 +12,21 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 30px 90px;
+  padding: 10px 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.navbar-toggler-icon,
+.navbar-toggler {
+  background-color: #fff !important;
+  box-shadow: none !important;
+}
+.navbar-nav {
+  border: 2px solid white !important;
+  border-radius: 7px;
+  padding: 1rem;
+  width: 500px;
 }
 header .logo {
   mix-blend-mode: screen;
@@ -49,6 +60,24 @@ header ul li a:hover,
 header ul li a.active {
   background-color: #fff;
   color: black;
+}
+@media (max-width: 768px) {
+  header {
+    padding: 0;
+    top: -2rem;
+  }
+  .navbar-nav {
+    margin: 0 auto;
+  }
+  header ul li a {
+    font-weight: 700;
+  }
+  .nav-item {
+    margin-top: 12px;
+  }
+  header .logo {
+    padding-left: 6rem;
+  }
 }
 /*FIM DO MENU HORIZONTAL*/
 
